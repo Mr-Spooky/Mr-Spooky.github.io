@@ -2,20 +2,35 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns="http://usefulinc.com/ns/doap#"
+    xmlns:admin="http://webns.net/mvcb/"
 >
-    <foaf:Person>
-        <foaf:familyName>Girard</foaf:familyName>
-        <foaf:givenName>Alexandre</foaf:givenName>
-        <foaf:name xml:lang="fr">Alexandre Girard</foaf:name>
-        <foaf:nick>Mr.Spooky</foaf:nick>
-        <foaf:gender>male</foaf:gender>
+    <foaf:PersonalProfileDocument rdf:about="">
+        <foaf:maker rdf:resource="#me"/>
+        <foaf:primaryTopic rdf:resource="#me"/>
+        <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+        <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+    </foaf:PersonalProfileDocument>
+    <foaf:Person rdf:ID="me">
+        <foaf:name>Alexandre Girard</foaf:name>
         <foaf:title>Mr</foaf:title>
-        <foaf:phone>0626684659<foaf:phone>
+        <foaf:givenname>Alexandre</foaf:givenname>
+        <foaf:family_name>Girard</foaf:family_name>
+        <foaf:nick>Mr.Spooky</foaf:nick>
         <foaf:age>21</foaf:age>
         <foaf:birthday>01-08</foaf:birthday>
-        <foaf:schoolHomePage rdf:resource="https://www.univ-larochelle.fr/" />
-        <foaf:homepage rdf:resource="http://rdfweb.org/people/danbri/" />
-        <foaf:img rdf:resource="/image/me.png" />
+        <foaf:phone>0626684659<foaf:phone>
+        <foaf:gender>male</foaf:gender>
+        <foaf:mbox_sha1sum>90746ace92fbc000127f8dfaebfa7e7d2e1bfdf0</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="https://mr-spooky.github.io/"/>
+        <foaf:phone rdf:resource="tel:0626684659"/>
+        <foaf:workplaceHomepage rdf:resource="https://ullo-world.fr"/>
+        <foaf:schoolHomepage rdf:resource="https://www.univ-larochelle.fr/"/>
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>Adrien Pilot</foaf:name>
+                <foaf:mbox_sha1sum>0e0c003b13df54ef074fe55169d8cfc157ecf15d</foaf:mbox_sha1sum>
+                <rdfs:seeAlso rdf:resource="https://adrienpilot.github.io"/>
+            </foaf:Person>
+        </foaf:knows>
     </foaf:Person>
 </rdf:RDF>
