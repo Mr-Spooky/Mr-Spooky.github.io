@@ -7,7 +7,7 @@
   <xsl:output method="html" indent="yes" />
   <xsl:template match="rdf:RDF/foaf:Person">
     <h1><xsl:value-of select="foaf:title" />. <xsl:value-of select="foaf:name" /></h1>
-    <p><xsl:value-of select="foaf:gender" /> - <xsl:value-of select="foaf:gender" /> years old</p>
+    <p><xsl:value-of select="foaf:gender" /> - <xsl:value-of select="foaf:age" /> years old</p>
     <p>Nickname: <xsl:value-of select="foaf:nick" /></p>
     <p>Phone: <xsl:value-of select="foaf:phone" /></p>
     <br />
