@@ -31,7 +31,7 @@
             <foaf:Person>
                 <foaf:name>Adrien Pilot</foaf:name>
                 <foaf:mbox_sha1sum>0e0c003b13df54ef074fe55169d8cfc157ecf15d</foaf:mbox_sha1sum>
-                <rdfs:seeAlso rdf:resource="https://adrienpilot.github.io"/>
+                <rdfs:seeAlso rdf:resource="https://adrienpilot.github.io/foaf.rdf"/>
             </foaf:Person>
         </foaf:knows>
     </foaf:Person>
