@@ -18,7 +18,7 @@
         <foaf:nick>Mr.Spooky</foaf:nick>
         <foaf:age>21</foaf:age>
         <foaf:birthday>01-08</foaf:birthday>
-        <foaf:phone>0626684659<foaf:phone>
+        <foaf:phone>0626684659</foaf:phone>
         <foaf:gender>male</foaf:gender>
         <foaf:mbox_sha1sum>90746ace92fbc000127f8dfaebfa7e7d2e1bfdf0</foaf:mbox_sha1sum>
         <foaf:homepage rdf:resource="https://mr-spooky.github.io/"/>
